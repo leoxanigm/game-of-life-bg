@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Game of Life Background</title>
+</head>
+<style>
+  body {
+    margin: 0;
+    background-color: #273338;
+    color: white;
+  }
+  canvas {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    width: 100vw;
+    height: 100vh;
+    pointer-events: none;
+  }
+</style>
+<body>
+  <canvas id="game-of-life-bg" role="presentation"></canvas>
+
+  <script src="game-of-life.js"></script>
+</body>
+</html>
